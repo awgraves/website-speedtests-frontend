@@ -1,0 +1,31 @@
+.urlinputcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  row-gap: 1rem;
+  /* background-color: red; */
+}
+
+.inputwrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  white-space: nowrap;
+  /* background-color: blue; */
+  margin-right: .3rem;
+}
+
+.input {
+  height: 2rem;
+  width: 80vw;
+  margin: 0 2px;
+}
+
+@media screen and (min-width: 460px){
+  .input {
+    width: 50ch;
+  }
+}

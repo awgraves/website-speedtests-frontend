@@ -1,0 +1,14 @@
+.button {
+  padding: 1rem;
+  background-color: inherit;
+  border-radius: .25em;
+  cursor: pointer;
+  color: green;
+  border: green solid 1px;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: green;
+  color: black;
+}
