@@ -1,0 +1,9 @@
+.sitelist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: black;
+  gap: 1rem;
+}
