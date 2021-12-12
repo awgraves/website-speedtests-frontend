@@ -11,7 +11,7 @@ const SitesList: React.FC<SitesListProps> = ({ urls }) => {
 
   return (
     <div className={styles.sitelist}>
-        {urls.map((s) => <SiteListItem site={s}></SiteListItem>)}
+        {urls.map((s) => <SiteListItem site={s} key={s.url}></SiteListItem>)}
     </div>
   )
 }
